@@ -14,8 +14,21 @@
 
     <!--Header start-->
     <div id="header" class="flex-container">
-        <div class="logo">SpaceGum</div>
-        <img src="assets/Navigation.png" width="62px" height="43px">
+        <div class="burger" onclick="togglemenu()">
+            <img src="assets/Navigation.png" width="50px">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="produktseite.html">Produkte</a></li>
+                <li><a href="philosophie.html">Philosophie</a></li>
+                <li>Kontakt</li>
+            </ul>
+        </nav>
+        <img src="assets/Herz.png" alt="Merken" title="Merken" width="50px">
+        <img src="assets/Einkaufswagen.png" alt="Einkaufswagen" title="Einkaufswagen" width="50px">
+    </div>
+    <div>
+        <img src="assets/backtotop.png" height="50px" width="50px" onclick="scrolltotop()" id="backtotop" title="Zurück nach oben" alt="Zurück nach oben">
     </div>
     <!--Header ende-->
 
@@ -61,7 +74,7 @@
         <!--Mail Formular start-->
         <div>
             <h3>Jetzt nichts mehr verpassen!</h3>
-            <p>Melde dich für unseren Newsletter an und erhalte exklusive Einblicke, Angebote und Updates zu unserem abgespaceten Kaugummi. Sei Teil der Space-Community – für einen frischen Start in den Weltraum des Geschmacks!</p>
+            <p>Melde dich für unseren Newsletter an und erhalte exklusive Einblicke, Angebote und Updates zu unserem abgespaceten Kaugummi. Sei Teil der Space-Gummunity – für einen frischen Start in den Weltraum des Geschmacks!</p>
             <form method="post"> 
                 <label for="anrede">Anrede:</label>
                 <select name="anrede" id="anrede">
@@ -78,6 +91,10 @@
                 <input type="email" id="email" name="email" required>
                 <label for="geburtstag">Geburtstag</label>
                 <input type="date" id="geburtstag" name="geburtstag">
+                <label for="zustimmung">
+                    <input type="checkbox" id="zustimmung" name="zustimmung" required>
+                    Ich stimme der Verarbeitung meiner Daten für den Newsletterversand zu.
+                </label>
                 <input type="submit" value="Anmelden">
             </form>
         </div>
@@ -89,9 +106,9 @@
     <!--Footer start-->
     <div id="footer" class="flex-container">
       <div id="social">
-            <img src="assets/insta.png" width="50px" alt="Instagram" title="Instagram">
-            <img src="assets/tiktok.png" width="50px" alt="TikTok" title="TikTok">
-            <img src="assets/youtube.png" width="62px" alt="YouTube" title="YouTube">
+           <a href="#" target="_blank"><img src="assets/insta.png" width="50px" alt="Instagram" title="Instagram"></a>
+            <a href="#" target="_blank"><img src="assets/tiktok.png" width="50px" alt="TikTok" title="TikTok"></a>
+            <a href="#" target="_blank"><img src="assets/youtube.png" width="62px" alt="YouTube" title="YouTube"></a>
       </div>
       <div id="footer_links">
         <h4>Kontakt</h4>
