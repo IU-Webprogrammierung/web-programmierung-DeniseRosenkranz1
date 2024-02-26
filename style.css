@@ -1,6 +1,6 @@
 @media all and (max-width: 576px) {
     body {
-        background-image: url("assets/bg_mob.pngg");
+        background-image: url("assets/bg_mob.png");
         background-repeat: repeat-y;
         mbackground-color: #170e3c;
         background-size: 100%;
@@ -36,7 +36,38 @@ p {
     height: 3rem;
     width: auto;
 }
+
  .burger {
     height: 3rem;
     width: auto;
+ }
+
+ #backtotop {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    height: 4rem;
+    width: auto;
+ }
+
+ .hauptbild {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ #haupt_logo {
+    width: 22rem;
+    height: auto;
+ }
+
+ #haupt_astronaut {
+    position: absolute;
+    width: 12rem;
+    height: auto;
+    left: -60px;
+    top: 260px;
+    transform: rotate(10deg)
  }
