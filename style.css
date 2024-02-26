@@ -2,14 +2,14 @@
     body {
         background-image: url("assets/bg_mob.png");
         background-repeat: repeat-y;
-        mbackground-color: #170e3c;
+        background-color: #170e3c;
         background-size: 100%;
     }
 }
 
 @media all and (min-width: 577px) {
     body {
-        background-image: url("assets/bg_desk.pngg");
+        background-image: url("assets/bg_desk.png");
         background-repeat: repeat-y;
         background-size: 100%;
     }
@@ -71,3 +71,30 @@ p {
     top: 260px;
     transform: rotate(10deg)
  }
+
+.rakete_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wolke {
+    width: 130%;
+    height: auto;
+}
+
+.kasten {
+    background: rgba(213, 200, 229, 0.599);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(240, 194, 255, 0.365);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.kasten img {
+    align-items: center;
+}
