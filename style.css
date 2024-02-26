@@ -1,0 +1,15 @@
+@media all and (max-width: 576px) {
+    body {
+        background-image: url("assets/bg_mob.png");
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+}
+
+@media all and (min-width: 577px) {
+    body {
+        background-image: url("assets/bg_desk.png");
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+}
