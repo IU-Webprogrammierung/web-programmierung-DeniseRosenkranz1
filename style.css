@@ -1,15 +1,42 @@
 @media all and (max-width: 576px) {
     body {
-        background-image: url("assets/bg_mob.png");
+        background-image: url("assets/bg_mob.pngg");
         background-repeat: repeat-y;
+        mbackground-color: #170e3c;
         background-size: 100%;
     }
 }
 
 @media all and (min-width: 577px) {
     body {
-        background-image: url("assets/bg_desk.png");
+        background-image: url("assets/bg_desk.pngg");
         background-repeat: repeat-y;
         background-size: 100%;
     }
 }
+
+body {
+    margin: 2em;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+  }
+
+.nav_icon img {
+    padding-left: 1.5rem;
+    height: 3rem;
+    width: auto;
+}
+ .burger {
+    height: 3rem;
+    width: auto;
+ }
