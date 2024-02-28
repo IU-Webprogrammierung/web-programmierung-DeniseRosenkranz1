@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bubblegum';
+    src: url('assets/fonts/Bubblegum.ttf');
+}
+
 @media all and (max-width: 576px) {
     body {
         background-image: url("assets/bg_mob.png");
@@ -22,7 +27,17 @@ body {
 
 p {
     color: #ffffff;
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
 } 
+
+h3 {
+    color: #ffffff;
+    font-family: 'Bubblegum','Helvetica','Arial', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.4em;
+}
 
 .flex-container {
     display: flex;
@@ -98,3 +113,4 @@ p {
 .kasten img {
     align-items: center;
 }
+
