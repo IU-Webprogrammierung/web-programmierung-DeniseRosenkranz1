@@ -3,6 +3,8 @@
     src: url('assets/fonts/Bubblegum.ttf');
 }
 
+
+
 @media all and (max-width: 576px) {
     body {
         background-image: url("assets/bg_mob.png");
@@ -63,6 +65,7 @@ h3 {
     right: 3%;
     height: 4rem;
     width: auto;
+    z-index: 2;
  }
 
  .hauptbild {
@@ -70,7 +73,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-
  }
 
  #haupt_logo {
@@ -95,7 +97,7 @@ h3 {
 }
 
 .wolke {
-    width: 130%;
+    width: 100%;
     height: auto;
 }
 
@@ -111,6 +113,59 @@ h3 {
 }
 
 .kasten img {
-    align-items: center;
+    width: 4.5rem;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.supermarkt img {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 7em;
+    height: auto;
+}
+
+.footer_links a:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 3em;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.footer_links a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 3em;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    opacity: 0.8;
+    width: 3.5rem;
+    height: auto;
+}
+
+.social:hover {
+    opacity: 1;
 }
 
