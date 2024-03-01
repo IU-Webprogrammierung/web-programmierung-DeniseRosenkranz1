@@ -161,8 +161,36 @@ ul {
 
 .social {
     opacity: 0.8;
-    width: 3.5rem;
+    width: 4.5rem;
     height: auto;
+}
+
+label {
+    font-size: 1.2em;
+    font-family: 'Helvetica','Arial', sans-serif;
+}
+
+.btn {
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #f324bc;
+    padding: 0.7rem 4rem;
+    border: none;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    transition: 900ms;
+    margin-top: 2rem;
+}
+
+.btn:hover {
+    transition: 900ms;
+    background-color: #8213a4;
 }
 
 .social:hover {

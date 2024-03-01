@@ -71,27 +71,41 @@
         <section class="kasten">
             <h3>Jetzt nichts mehr verpassen!</h3>
             <p>Melde dich für unseren Newsletter an und erhalte exklusive Einblicke, Angebote und Updates zu unserem abgespaceten Kaugummi. Sei Teil der Space-Gummunity – für einen frischen Start in den Weltraum des Geschmacks!</p>
-            <form method="post" class="Mail"> 
-                <label for="anrede">Anrede:</label>
-                    <select name="anrede" id="anrede">
-                        <option value="Ahoi">Ahoi</option>
-                        <option value="Moin">Moin</option>
-                        <option value="Hallo">Hallo</option>
-                        <option value="Aloha">Aloha</option>
-                    </select>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
-                    <label for="nachname">Nachname</label>
-                    <input type="text" id="nachname" name="nachname">
-                    <label for="email">* E-Mail:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="geburtstag">Geburtstag</label>
-                    <input type="date" id="geburtstag" name="geburtstag">
-                    <label for="zustimmung">
-                    <input type="checkbox" id="zustimmung" name="zustimmung" required>
-                        Ich stimme der Verarbeitung meiner Daten für den Newsletterversand zu.
-                </label>
-                <input type="submit" value="Anmelden">
+            <form method="post"> 
+                <fieldset>
+                    <label for="anrede">Anrede:</label>
+                        <div>
+                            <select name="anrede" id="anrede">
+                                <option value="Ahoi">Ahoi</option>
+                                <option value="Moin">Moin</option>
+                                <option value="Hallo">Hallo</option>
+                                <option value="Aloha">Aloha</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div>    
+                            <label for="nachname">Nachname</label>
+                            <input type="text" id="nachname" name="nachname">
+                        </div>  
+                        <div>  
+                            <label for="email">* E-Mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div> 
+                        <div>   
+                            <label for="geburtstag">Geburtstag</label>
+                            <input type="date" id="geburtstag" name="geburtstag">
+                        </div>  
+                        <div>  
+                            <label for="zustimmung">
+                            <input type="checkbox" id="zustimmung" name="zustimmung" required>
+                                Ich stimme der Verarbeitung meiner Daten für den Newsletterversand zu.
+                        </div>        
+                    </label>
+                    <input type="submit" value="Anmelden" class="btn">
+                </fieldset>    
             </form>
         </section>
         <!--Mail Formular ende-->
