@@ -3,8 +3,6 @@
     src: url('assets/fonts/Bubblegum.ttf');
 }
 
-
-
 @media all and (max-width: 576px) {
     body {
         background-image: url("assets/bg_mob.png");
@@ -15,7 +13,7 @@
 }
 
 @media all and (min-width: 577px) {
-    body {
+    body{
         background-image: url("assets/bg_desk.png");
         background-repeat: repeat-y;
         background-size: 100%;
@@ -38,6 +36,13 @@ h3 {
     color: #ffffff;
     font-family: 'Bubblegum','Helvetica','Arial', sans-serif;
     font-size: 1.8em;
+    line-height: 1.4em;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Bubblegum','Helvetica','Arial', sans-serif;
+    font-size: 2.2em;
     line-height: 1.4em;
 }
 
@@ -142,6 +147,7 @@ hr {
     list-style-type: none;
     text-align: center;
     opacity: 0.8;
+    transition: 900ms;
 }
 
 .footer_links a:hover {
@@ -154,6 +160,7 @@ hr {
     list-style-type: none;
     text-align: center;
     opacity: 1;
+    transition: 900ms;
 }
 
 ul {
@@ -164,6 +171,7 @@ ul {
     opacity: 0.8;
     width: 4.5rem;
     height: auto;
+    transition: 900ms;
 }
 
 label {
@@ -177,7 +185,7 @@ label {
     font-family: 'Helvetica','Arial', sans-serif;
     font-size: 1.2em;
     color: #ffffff;
-    background-color: #f324bc;
+    background-color: #8213a4;
     padding: 0.7rem 4rem;
     border: none;
     box-shadow: rgba(0,0,0,0.15) 0px 2px 8px;
@@ -193,11 +201,12 @@ label {
 
 .btn:hover {
     transition: 900ms;
-    background-color: #8213a4;
+    background-color: #f324bc;
 }
 
 .social:hover {
     opacity: 1;
+    transition: 900ms;
 }
 
 form {
@@ -236,5 +245,10 @@ select {
     outline: none;
     font-size: 1.2em;
     line-height: 1.3em;
+}
+
+.header_produkt {
+    width: 100%;
+    height: auto;
 }
 
