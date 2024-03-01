@@ -4,31 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
     <title>Produkte</title>
 </head>
 <body>
 
      <!--Header start-->
-     <div id="header" class="flex-container">
-        <div class="burger" onclick="togglemenu()">
-            <img src="assets/Navigation.png" width="50px">
+     <nav class="flex-container">
+        <img src="assets/Navigation.png" class="burger">
+        <div class="nav_icon">
+            <img src="assets/Herz.png" alt="Merken">
+            <img src="assets/Einkaufswagen.png" alt="Einkaufswagen">
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="produktseite.html">Produkte</a></li>
-                <li><a href="philosophie.html">Philosophie</a></li>
-                <li>Kontakt</li>
-            </ul>
-        </nav>
-        <a href="index.html"> 
-            <img src="assets/Logo.png" width="20%" alt="SpaceGum" title="SpaceGum">
-        </a>
-        <img src="assets/Herz.png" alt="Merken" title="Merken" width="50px">
-        <img src="assets/Einkaufswagen.png" alt="Einkaufswagen" title="Einkaufswagen" width="50px">
-    </div>
-    <div>
-        <img src="assets/backtotop.png" height="50px" width="50px" onclick="scrolltotop()" id="backtotop" title="Zurück nach oben" alt="Zurück nach oben">
-    </div>
+    </nav>
+    <a href="#">
+        <img src="assets/backtotop.png" height="50px" width="50px" id="backtotop" alt="Zurück nach oben">
+    </a>
     <!--Header ende-->
 
     <!--Content start-->
@@ -74,23 +65,23 @@
     </div>
     <!--Content start-->
 
-    <!--Footer start-->
-    <div id="footer" class="flex-container">
+    <!--Footer start    oter Links als Liste und mit p Tag (ist keine überschrift also warum h4?) + Links verlinken -->
+    <footer>
         <hr>
-        <div id="social">
-             <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" width="50px" alt="Instagram" title="Instagram"></a>
-              <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" width="50px" alt="TikTok" title="TikTok"></a>
-              <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" width="62px" alt="YouTube" title="YouTube"></a>
-        </div>
-        <div id="footer_links">
-            <ul>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Impressum</a></li>
-                <li><a href="#">Datenschutz</a></li>
-            </ul>
-        </div>
+    <div class="flex-container">
+        <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram" title="Instagram" class="social"></a>
+            <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok" title="TikTok" class="social"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube" title="YouTube" class="social"></a>
     </div>
-      <!--Footer ende-->
+    <div class="footer_links">
+        <ul>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Impressum</a></li>
+            <li><a href="#">Datenschutz</a></li>
+        </ul>
+    </div>
+    </footer>
+    <!--Footer ende-->
     
 </body>
 </html>
