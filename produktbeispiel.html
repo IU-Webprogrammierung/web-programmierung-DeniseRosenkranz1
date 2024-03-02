@@ -7,9 +7,9 @@
     <title>Cosmic Mint Blast</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg_beispiel">
       <!--Header start-->
-    <nav class="flex-container">
+    <nav class="flex-container nav">
         <img src="assets/Navigation.png" class="burger">
         <div class="nav_icon">
             <img src="assets/Herz.png" alt="Merken">
@@ -22,10 +22,12 @@
     <!--Header ende-->
 
     <!--Content start-->
-    <img src="assets/header_Minze.png" width="100%" alt="Cosmic Mint Blast" class="header_produkt">
+
+    
+        <img src="assets/header_Minze.png" width="100%" alt="Cosmic Mint Blast" class="header_produkt">
    
         
-
+    <section class="spacing">
         <!--Bestellung start--> 
          <h1>Cosmic Mint Blast</h1>
          <p>Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des Weltraums einfängt.</p>
@@ -38,12 +40,16 @@
         </div>
         <button>Kauf mich</button>
         <img src="assets/Herz.png" width="10%">
+    </section>
         <!--Bestellung ende-->
 
         <!--Infos start--> 
-        <img src="assets/trenner_wolke_1_m.png" width="100%">
-        <p>Cosmic Mint Blast - Ein erfrischender Kaugenuss, der dich mit intensiver Minze und einer Prise kosmischer Frische verführt. Erlebe den einzigartigen Geschmack, der dich in neue Sphären der Erfrischung transportiert.</p>
+        <img src="assets/trenner_wolke_1_m.png" class="wolke_oben bild_m">
+        <img src="assets/trenner_wolke_1_d.png" class="wolke_oben bild_d">
+        
         <div class="info-modul">
+            <div class="spacing ">
+            <p>Cosmic Mint Blast - Ein erfrischender Kaugenuss, der dich mit intensiver Minze und einer Prise kosmischer Frische verführt. Erlebe den einzigartigen Geschmack, der dich in neue Sphären der Erfrischung transportiert.</p>
             <button onclick="toggleInfo('naehrwert')" class="toggle">+ Nährwerte</button>
             <div class="info-inhalt" id="naehrwertInhalt">
                 <table>
@@ -87,7 +93,7 @@
             
             <hr>
             <button onclick="toggleInfo('zutaten')" class="toggle">+ Zutaten</button>
-            <div class="info-inhalt" id="zutatenInhalt">
+            <div class="info-inhalt inhalts_liste" id="zutatenInhalt">
                 <ul>
                     <li>Süßungsmittel (Xylit, Stevioglycosid)</li>
                     <li>Natürliche Chicle-Kaumasse</li>
@@ -97,14 +103,16 @@
                     <li>Carnaubawachs</li>
                 </ul>
             </div>
-        </div>
-        <img src="assets/trenner_wolke_2_m.png" width="100%">
+        </div></div>  </div>
+        <img src="assets/trenner_wolke_2_m.png" class="wolke_unten bild_m">
+        <img src="assets/trenner_wolke_2_d.png" class="wolke_unten bild_d">
         <!--Infos ende--> 
-    </div>    
+      
     <!--Content ende-->    
 
     <!--Vorschlag start--> 
-    <h2>Das könnte dir auch gefallen:</h2>
+    <section class="spacing">
+    <h3>Das könnte dir auch gefallen:</h3>
     <div id="karussell-container">
         <img class="karussell-pfeil pfeil-links" src="assets/arrow_l.png" alt="Linker Pfeil" title="Linker Pfeil" onclick="vorherigesProdukt()" width="10%">
         <div class="karussell-produkt" id="aktuellesProdukt">
@@ -112,12 +120,13 @@
         </div>
         <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" width="10%" alt="Rechter Pfeil" title="Rechter Pfeil" onclick="naechstesProdukt()">
     </div>
+</section>
     <!--Vorschlag ende--> 
 
   <!--Footer start    oter Links als Liste und mit p Tag (ist keine überschrift also warum h4?) + Links verlinken -->
-  <footer>
+  <footer class="spacing">
     <hr>
-  <div class="flex-container">
+  <div class="flex-container socials">
        <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram" title="Instagram" class="social"></a>
         <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok" title="TikTok" class="social"></a>
         <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube" title="YouTube" class="social"></a>
