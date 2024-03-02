@@ -444,6 +444,7 @@ background-color: #170e3c;;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     margin-top: 0;
+    margin: 0 2em 2em 2em;
 
 }
 
@@ -537,6 +538,20 @@ background-color: #170e3c;;
 
     }
 
+    #philo-astronaut {
+        position: absolute;
+        width: 22vw;
+        height: auto;
+        left: 0;
+        top: 95px;
+    }
+
+    #philo-logo {
+        width: 40rem;
+        height: auto;
+
+    }
+
     .kachel {
         display: flex;
         align-items: center;
@@ -561,4 +576,20 @@ background-color: #170e3c;;
 
     }
 
+    .kachel_info {
+        min-height: 18rem;
+    }
+
+    .dreierspalte {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 0;
+    }
+
+    .dreierspalte section {
+        width: 30%;
+        
+    }
 }
