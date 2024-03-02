@@ -393,6 +393,31 @@ background-color: #170e3c;;
 
 }
 
+.produkt-uebersicht {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;;
+
+}
+
+.produkt-box {
+    width: 40%;
+    padding: 3rem;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.produkt-herz {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    
+}
+
 
 
 @media only screen and (max-width: 576px) {

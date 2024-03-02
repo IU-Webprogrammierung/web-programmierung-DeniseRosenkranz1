@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <title>Produkte</title>
 </head>
-<body>
+<body class="bg_beispiel">
 
      <!--Header start-->
-     <nav class="flex-container">
+     <nav class="flex-container nav">
         <img src="assets/Navigation.png" class="burger">
         <div class="nav_icon">
             <img src="assets/Herz.png" alt="Merken">
@@ -21,15 +21,15 @@
         <img src="assets/backtotop.png" height="50px" width="50px" id="backtotop" alt="Zurück nach oben">
     </a>
     <!--Header ende-->
-
+    <img src="assets/header_produktseite.png" width="100%" alt="Unsere Produkte" title="Unsere Produkte">
     <!--Content start-->
-    <div id="content" class="flex-container">
-        <img src="assets/header_produktseite.png" width="100%" alt="Unsere Produkte" title="Unsere Produkte">
+    <div id="content" class="spacing produkt-uebersicht">
+        
     
         <!--Produkte start Herz neben zum Produkt?-->
-        <div class="Minze">
-            <img src="assets/Herz.png" width="10%">
-            <img src="assets/Minze.png" width="60%" alt="Cosmic Mint Blast" title="Cosmic Mint Blast">
+        <div class="Minze produkt-box">
+            <img src="assets/Herz.png" class="produkt-herz">
+            <img src="assets/Minze.png" class="w100" alt="Cosmic Mint Blast" title="Cosmic Mint Blast">
             <h3>Cosmic Mint Blast</h3>
             <p>Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des Weltraums einfängt.</p>
             <a href="produktbeispiel.html">
@@ -37,25 +37,25 @@
             </a>    
         </div>    
 
-        <div class="Zimt">
-            <img src="assets/Herz.png" width="10%">
-            <img src="assets/Zimt.png" width="60%" alt="Galactic Fruit Fusion" title="Galactic Fruit Fusion">
+        <div class="Zimt produkt-box">
+            <img src="assets/Herz.png" class="produkt-herz">
+            <img src="assets/Zitrone.png" class="w100"  alt="Galactic Fruit Fusion" title="Galactic Fruit Fusion">
             <h3>Galactic Fruit Fusion</h3>
             <p>Ein fruchtiges Kaugummi, das verschiedene Galaxien von Aromen zu einer köstlichen Fusion vereint.</p>
             <button>Zum Produkt</button>
         </div>    
 
-        <div class="Zitrone">
-            <img src="assets/Herz.png" width="10%">
-            <img src="assets/Zitrone.png" width="60%" alt="Stellar Cinnamon Burst" title="Stellar Cinnamon Burst">
+        <div class="Zitrone produkt-box">
+            <img src="assets/Herz.png" class="produkt-herz">
+            <img src="assets/Zimt.png" class="w100" alt="Stellar Cinnamon Burst" title="Stellar Cinnamon Burst">
             <h3>Stellar Cinnamon Burst</h3>
             <p>Ein Kaugummi mit zimtigem Geschmack, das wie eine Explosion im Sternenhimmel ist.</p>
             <button>Zum Produkt</button>
         </div> 
 
-        <div class="Bubblegum">
-            <img src="assets/Herz.png" width="10%">
-            <img src="assets/Bubblegum.png" width="60%" alt="Nebula Bubble Bliss" title="Nebula Bubble Bliss">
+        <div class="Bubblegum produkt-box">
+            <img src="assets/Herz.png" class="produkt-herz">
+            <img src="assets/Bubblegum.png" class="w100" alt="Nebula Bubble Bliss" title="Nebula Bubble Bliss">
             <h3>Nebula Bubble Bliss</h3>
             <p>Ein süßer Bubblegum-Kaugummi, der die süßen Geheimnisse einer Nebula in jeder Blase versteckt.</p>
             <button>Zum Produkt</button>
@@ -66,7 +66,7 @@
     <!--Content start-->
 
     <!--Footer start    oter Links als Liste und mit p Tag (ist keine überschrift also warum h4?) + Links verlinken -->
-    <footer>
+    <footer class="spacing">
         <hr>
     <div class="flex-container">
         <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram" title="Instagram" class="social"></a>
