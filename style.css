@@ -118,6 +118,11 @@ text-align: center;
     height: auto;
  }
 
+ #philo-logo {
+    width: 22rem;
+    height: auto;
+ }
+
  #haupt_astronaut {
     position: absolute;
     width: 12rem;
@@ -125,6 +130,15 @@ text-align: center;
     left: -60px;
     top: 260px;
     transform: rotate(10deg)
+ }
+
+ #philo-astronaut{
+    position: absolute;
+    width: 5rem;
+    height: auto;
+    left: 0;
+    top: 260px;
+
  }
 
 .rakete_logo {
@@ -165,6 +179,7 @@ text-align: center;
     height: auto;
     margin: auto;
     display: block;
+    margin-bottom: 1rem;
 }
 
 hr {
@@ -416,6 +431,28 @@ background-color: #170e3c;;
     display: block;
     margin-left: auto;
     
+}
+
+.kachel_info{
+    background: rgba(213, 200, 229, 0.599);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 0 0 10px 10px;
+    border: 1px solid rgba(240, 194, 255, 0.365);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+
+}
+
+.kachel-top-s {
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url("assets/img_schildkroete.png");
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
