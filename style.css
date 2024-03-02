@@ -134,9 +134,10 @@ text-align: center;
 
  #philo-astronaut{
     position: absolute;
-    width: 5rem;
+    width: 11rem;
     height: auto;
     left: 0;
+    z-index: -1;
     top: 260px;
 
  }
@@ -453,7 +454,30 @@ background-color: #170e3c;;
     min-height: 220px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: center;
 }
+
+.kachel-top-b {
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url("assets/img_baum.png");
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.kachel-top-p {
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url("assets/img_pfote.png");
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
 
 
 
