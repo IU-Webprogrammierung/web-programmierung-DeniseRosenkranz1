@@ -38,8 +38,10 @@
             <span>1</span>
             <button class="btn_s">+</button>
         </div>
-        <button>Kauf mich</button>
-        <img src="assets/Herz.png" width="10%">
+        <div class="flex-container flex-herz">
+            <button>Kauf mich</button>
+            <img src="assets/Herz.png" class="herz">
+        </div>
     </section>
         <!--Bestellung ende-->
 
@@ -112,13 +114,13 @@
 
     <!--Vorschlag start--> 
     <section class="spacing">
-    <h3>Das könnte dir auch gefallen:</h3>
+    <h3 class="center">Das könnte dir auch gefallen:</h3>
     <div id="karussell-container">
-        <img class="karussell-pfeil pfeil-links" src="assets/arrow_l.png" alt="Linker Pfeil" title="Linker Pfeil" onclick="vorherigesProdukt()" width="10%">
-        <div class="karussell-produkt" id="aktuellesProdukt">
-            <img src="assets/Minze.png" alt="Cosmic Mint Blast" title="Cosmic Mint Blast" width="70%">
+        <img class="karussell-pfeil pfeil-links" src="assets/arrow_l.png" alt="Linker Pfeil" title="Linker Pfeil" onclick="vorherigesProdukt()" width="5%">
+        <div class="karussell-produkt" id="aktuellesProdukt" width="70%">
+            <img src="assets/Minze.png" alt="Cosmic Mint Blast" title="Cosmic Mint Blast" width="100%">
         </div>
-        <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" width="10%" alt="Rechter Pfeil" title="Rechter Pfeil" onclick="naechstesProdukt()">
+        <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" alt="Rechter Pfeil" title="Rechter Pfeil" onclick="naechstesProdukt()" width="5%">
     </div>
 </section>
     <!--Vorschlag ende--> 
