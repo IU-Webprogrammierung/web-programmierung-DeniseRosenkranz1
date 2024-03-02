@@ -21,8 +21,13 @@
 }
 
 body {
-    margin: 2em;
+    margin: 0;
     color: #ffffff;
+}
+
+.spacing {
+    margin: 2em
+
 }
 
 p {
@@ -109,9 +114,18 @@ h1 {
     justify-content: center;
 }
 
-.wolke {
-    width: 100%;
+.wolke_oben {
+    width: 100vw;
     height: auto;
+    z-index: 1;
+    margin-bottom: -3px;
+}
+
+.wolke_unten {
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+    margin-top: -3px;
 }
 
 .kasten {
@@ -138,11 +152,26 @@ hr {
     margin-bottom: 2em;
 }
 
+.supermarkt {
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
 .supermarkt img {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    width: 7em;
+    width: 9rem;
     height: auto;
+}
+
+.footer_links ul{
+    padding-inline-start: 0px;
 }
 
 .footer_links a:link {
