@@ -3,22 +3,9 @@
     src: url('assets/fonts/Bubblegum.ttf');
 }
 
-@media all and (max-width: 576px) {
-    body {
-        background-image: url("assets/bg_mob.png");
-        background-repeat: repeat-y;
-        background-color: #170e3c;
-        background-size: 100%;
-    }
-}
 
-@media all and (min-width: 577px) {
-    body{
-        background-image: url("assets/bg_desk.png");
-        background-repeat: repeat-y;
-        background-size: 100%;
-    }
-}
+
+
 
 body {
     margin: 0;
@@ -29,6 +16,13 @@ body {
     margin: 2em
 
 }
+
+.nav {
+    margin: 2em;;
+
+}
+
+
 
 p {
     color: #ffffff;
@@ -174,7 +168,7 @@ hr {
     padding-inline-start: 0px;
 }
 
-.footer_links a:link {
+.footer_links a {
     color: #ffffff;
     text-decoration: none;
     font-family: 'Helvetica','Arial', sans-serif;
@@ -324,3 +318,85 @@ select {
     height: auto;
 }
 
+.socials{
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-image: url("assets/bg_mob.png");
+        background-repeat: repeat-y;
+        background-color: #170e3c;
+        background-size: 100%;
+    }
+
+    .bild_d {display: none;}
+   
+}
+
+
+
+@media only screen and (min-width: 577px) {
+    body{
+        background-image: url("assets/bg_desk.png");
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+
+
+    .spacing {
+        margin: auto;
+        width: 960px;
+        
+    
+    }
+
+    #haupt_astronaut {
+        position: absolute;
+        width: 30vw;
+        height: auto;
+        left: 150px;
+        top: 80px;
+        transform: rotate(10deg);
+        
+    }
+
+    .hauptbild {
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #haupt_logo {
+        width: 30rem;
+        height: auto;
+
+    }
+
+    .kachel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        color: green;
+    }
+
+    .kasten {
+        width: 40%;
+
+    }
+
+    .bild_m {
+        display: none;
+    
+    }
+
+    .fixed {
+        width: 960px;;
+
+    }
+
+}
