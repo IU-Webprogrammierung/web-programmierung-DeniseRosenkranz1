@@ -505,6 +505,11 @@ h2 {
     font-size: 2.5em;
 }
 
+.uebergang {
+    color: #ffffff;
+    font-family: 'Helvetica','Arial', sans-serif;
+}
+
 
 @media only screen and (max-width: 576px) {
     .bg {
@@ -535,8 +540,6 @@ h2 {
     .spacing {
         margin: auto;
         width: 960px;
-        
-    
     }
 
     #haupt_astronaut {
@@ -546,7 +549,6 @@ h2 {
         left: 50px;
         top: 80px;
         transform: rotate(10deg);
-        
     }
 
     .hauptbild {
@@ -559,7 +561,6 @@ h2 {
     #haupt_logo {
         width: 30rem;
         height: auto;
-
     }
 
     #philo-astronaut {
@@ -573,7 +574,6 @@ h2 {
     #philo-logo {
         width: 40rem;
         height: auto;
-
     }
 
     .kachel {
@@ -587,17 +587,14 @@ h2 {
 
     .kasten {
         width: 40%;
-
     }
 
     .bild_m {
         display: none;
-    
     }
 
     .fixed {
         width: 960px;;
-
     }
 
     .kachel_info {
@@ -614,6 +611,5 @@ h2 {
 
     .dreierspalte section {
         width: 30%;
-        
     }
 }

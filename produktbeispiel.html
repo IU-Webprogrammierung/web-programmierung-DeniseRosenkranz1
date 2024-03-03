@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg_beispiel">
-      <!--Header start-->
+    <!--Header start-->
     <nav class="flex-container nav">
-        <img src="assets/Navigation.png" class="burger">
+        <img src="assets/Navigation.png" class="burger" alt="Navigation Icon" title="Navigation Icon">
+        <a href="philosophie.html" class="uebergang">
+            Philosophie
+        </a>
+        <a href="index.html" class="uebergang">
+            Startseite
+        </a>
+        <a href="produktseite.html" class="uebergang">
+            Produktseite
+        </a>
         <div class="nav_icon">
-            <img src="assets/Herz.png" alt="Merken">
-            <img src="assets/Einkaufswagen.png" alt="Einkaufswagen">
+            <img src="assets/Herz.png" alt="Herz Icon" title="Herz Icon">
+            <img src="assets/Einkaufswagen.png" alt="Einkaufswagen Icon" title="Einkaufswagen Icon">
         </div>
     </nav>
     <a href="#">
-        <img src="assets/backtotop.png" id="backtotop" alt="Zurück nach oben">
+        <img src="assets/backtotop.png" id="backtotop" alt="Zurück nach oben Icon" title="Zurück nach oben Icon">
     </a>
     <!--Header ende-->
 
     <!--Content start-->
-
-    
-        <img src="assets/header_Minze_m.png" alt="Cosmic Mint Blast" class="header_produkt bild_m">
-        <img src="assets/header_Minze_d.png" alt="Cosmic Mint Blast" class="header_produkt bild_d">
+        <img src="assets/header_Minze_m.png" alt="Verpackung Kaugummi steht auf einem pinken Planeten" title="Verpackung Kaugummi steht auf einem pinken Planeten" class="header_produkt bild_m">
+        <img src="assets/header_Minze_d.png" alt="Verpackung Kaugummi steht auf einem pinken Planeten" title="Verpackung Kaugummi steht auf einem pinken Planeten" class="header_produkt bild_d">
         
     <section class="spacing">
         <!--Bestellung start--> 
@@ -40,7 +47,7 @@
         </div>
         <div class="flex-container flex-herz">
             <button>Kauf mich</button>
-            <img src="assets/Herz.png" class="herz">
+            <img src="assets/Herz.png" class="herz" alt="Herz Icon" title="Herz Icon">
         </div>
     </section>
         <!--Bestellung ende-->
@@ -48,13 +55,12 @@
         <!--Infos start--> 
         <img src="assets/trenner_wolke_1_m.svg" class="wolke_oben bild_m">
         <img src="assets/trenner_wolke_1_d.svg" class="wolke_oben bild_d mt2">
-        
         <div class="info-modul">
             <div class="spacing ">
-            <p>Cosmic Mint Blast - Ein erfrischender Kaugenuss, der dich mit intensiver Minze und einer Prise kosmischer Frische verführt. Erlebe den einzigartigen Geschmack, der dich in neue Sphären der Erfrischung transportiert.</p>
-            <button class="toggle">+ Nährwerte</button>
-            <div class="info-inhalt" id="naehrwertInhalt">
-                <table>
+                <p>Cosmic Mint Blast - Ein erfrischender Kaugenuss, der dich mit intensiver Minze und einer Prise kosmischer Frische verführt. Erlebe den einzigartigen Geschmack, der dich in neue Sphären der Erfrischung transportiert.</p>
+                <button class="toggle">+ Nährwerte</button>
+                <div class="info-inhalt" id="naehrwertInhalt">
+                    <table>
                     <tr> 
                         <td><strong>Nährwertangaben / 100g</strong></td>
                         
@@ -91,21 +97,22 @@
                         <td>Salz</td>
                         <td>0g</td>
                     </tr>
-                </table>
-            
-            <hr>
-            <button >+ Zutaten</button>
-            <div class="info-inhalt inhalts_liste" id="zutatenInhalt">
-                <ul>
-                    <li>Süßungsmittel (Xylit, Stevioglycosid)</li>
-                    <li>Natürliche Chicle-Kaumasse</li>
-                    <li>Natürliches Minzaroma</li>
-                    <li>Feuchthaltemittel (Glycerin)</li>
-                    <li>Verdickungsmittel (Gummi Arabicum)</li>
-                    <li>Carnaubawachs</li>
-                </ul>
-            </div>
-        </div></div>  </div>
+                    </table>
+                    <hr>
+                    <button >+ Zutaten</button>
+                    <div class="info-inhalt inhalts_liste" id="zutatenInhalt">
+                        <ul>
+                            <li>Süßungsmittel (Xylit, Stevioglycosid)</li>
+                            <li>Natürliche Chicle-Kaumasse</li>
+                            <li>Natürliches Minzaroma</li>
+                            <li>Feuchthaltemittel (Glycerin)</li>
+                            <li>Verdickungsmittel (Gummi Arabicum)</li>
+                            <li>Carnaubawachs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+        </div>
         <img src="assets/trenner_wolke_2_m.svg" class="wolke_unten bild_m">
         <img src="assets/trenner_wolke_2_d.svg" class="wolke_unten bild_d mb2">
         <!--Infos ende--> 
@@ -114,24 +121,24 @@
 
     <!--Vorschlag start--> 
     <section class="spacing">
-    <h3 class="center">Das koennte dir auch gefallen:</h3>
-    <div id="karussell-container">
-        <img class="karussell-pfeil pfeil-links" src="assets/arrow_l.png" alt="Linker Pfeil" title="Linker Pfeil">
-        <div class="karussell-produkt" id="aktuellesProdukt">
-            <img src="assets/Minze.png" alt="Cosmic Mint Blast" title="Cosmic Mint Blast">
+        <h3 class="center">Das koennte dir auch gefallen:</h3>
+        <div id="karussell-container">
+            <img class="karussell-pfeil pfeil-links" src="assets/arrow_l.png" alt="Linker Pfeil" title="Linker Pfeil">
+            <div class="karussell-produkt" id="aktuellesProdukt">
+                <img src="assets/Minze.png" alt="Verpackung Mint Blast" title="Verpackung Mint Blast">
+            </div>
+            <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" alt="Rechter Pfeil" title="Rechter Pfeil">
         </div>
-        <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" alt="Rechter Pfeil" title="Rechter Pfeil">
-    </div>
-</section>
+    </section>
     <!--Vorschlag ende--> 
 
   <!--Footer start-->
   <footer class="spacing">
     <hr>
   <div class="flex-container socials">
-       <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram" title="Instagram" class="social"></a>
-        <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok" title="TikTok" class="social"></a>
-        <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube" title="YouTube" class="social"></a>
+       <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram Icon" title="Instagram Icon" class="social"></a>
+        <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok Icon" title="TikTok Icon" class="social"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube Icon" title="YouTube Icon" class="social"></a>
   </div>
   <div class="footer_links">
     <ul>
