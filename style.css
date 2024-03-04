@@ -151,7 +151,7 @@ text-align: center;
     width: 100vw;
     height: auto;
     z-index: 1;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
 
 .wolke_unten {
@@ -417,8 +417,9 @@ background-color: #170e3c;;
 }
 
 .produkt-box {
-    width: 40%;
-    padding: 3rem;
+    width: 80%;
+    max-width: 400px;
+    padding: 1rem 0;
 }
 
 .w100 {
@@ -510,6 +511,16 @@ h2 {
     font-family: 'Helvetica','Arial', sans-serif;
 }
 
+.temp_nav{
+    margin: 0 0rem;
+}
+
+.temp_nav a{
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 13px;
+
+}
 
 @media only screen and (max-width: 576px) {
     .bg {
