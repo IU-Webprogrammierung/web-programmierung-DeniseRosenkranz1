@@ -19,6 +19,8 @@ li {
     line-height: 1.5em;
 }
 
+
+
 td {
     color: #170e3c;
     font-family: 'Helvetica','Arial', sans-serif;
@@ -535,6 +537,15 @@ h2 {
     }
 
     .bild_d {display: none;}
+
+    @keyframes hochrunter {
+        0% { top: 35%; }
+        100% { top: 37%; }
+      }
+    
+    .astro_animation {
+        animation: hochrunter 4s infinite alternate ease;
+    }
    
 }
 
@@ -545,6 +556,15 @@ h2 {
         background-image: url("assets/bg_desk.png");
         background-repeat: repeat-y;
         background-size: 100%;
+    }
+
+    @keyframes hochrunter {
+        0% { top: 1; }
+        100% { top: 14%; }
+      }
+    
+    .astro_animation {
+        animation: hochrunter 4s infinite alternate ease;
     }
 
 
