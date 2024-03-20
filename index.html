@@ -4,20 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>SpaceGum</title>
 </head>
+
+
 <body class="bg">
 
+   
+<!-- Sidenav -->
+<nav class="navbar  ">
+    <div class="container-fluid">
+      
+      
+      <div class="offcanvas offcanvas-end milchglas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          
+          <button type="button" class="btn-close sidenav-button" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/close.svg"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="philosophie.html"><p>Philosophie</p></a>
+            </li>   
+            <li class="nav-item">
+                <a class="nav-link" href="produktseite.html"><p>Produkte</p></a>
+            </li>          
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Toggler -->
 
     <!--Header start-->
     <nav class="flex-container nav">
-        <img src="assets/Navigation.png" class="burger" alt="Navigations Icon" title="Navigations Icon">
+        <button class="navbar-toggler sidenav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            
+            <img src="assets/Navigation.png" class="burger" alt="Navigations Icon" title="Navigations Icon">
+          </button>
+        
         
         <div class="nav_icon">
-            <img src="assets/Herz.png" alt="Herz Icon" title="Herz Icon">
+            <img src="assets/herz.png" alt="Herz Icon" title="Herz Icon" fill="#AB7C94">
             <img src="assets/Einkaufswagen.png" alt="Einkaufswagen Icon" title="Einkaufswagen Icon">
         </div>
     </nav>
@@ -35,22 +71,22 @@
 
         <!--Kacheln Info start-->
         <section class="spacing kachel">
-            <article class="kasten">
+            <article class="kasten milchglas">
                 <img src="assets/icon_100.png" alt="Blatt Icon" title="Blatt Icon">
                 <h3>Plastikfreies Kaugummi</h3>
                 <p>Bei uns findest du kein heimliches Plastik - nur klare Absprachen.</p>
             </article>
-            <article class="kasten">
+            <article class="kasten milchglas">
                 <img src="assets/icon_hase.png" alt="Hase Icon" title="Hase Icon">
                 <h3>Zertifiziert vegan</h3>
                 <p>Rein pflanzlich, erfrischend und natürlich lecker.</p>
             </article>
-            <article class="kasten">
+            <article class="kasten milchglas">
                 <img src="assets/icon_zuckerfrei.png" alt="Kein Zucker Icon" title="Kein Zucker Icon">
                 <h3>Zuckerfrei</h3>
                 <p>Zuckerfrei und voll mit Zutaten, die deine Zähne lieben!</p>
             </article>
-            <article class="kasten">
+            <article class="kasten milchglas">
                 <img src="assets/icon_pflanze.png" alt="Pflanze Icon" title="Pflanze Icon">
                 <h3>Natuerlich</h3>
                 <p>Natürlich verwenden wir zu 100 % nur die besten natürlichen Aromen.</p>
