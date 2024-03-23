@@ -7,6 +7,7 @@
    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/counter.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>SpaceGum</title>
 </head>
@@ -72,10 +73,40 @@
          <p>Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des Weltraums einfängt.</p>
          <h3>2,95 €</h3>
          <p>inkl. MwSt & Versand<br>€7,50 / 100g<br>Lieferzeit 1-3 Werktage</p>
-         <div >
-            <button class="btn_s">-</button>
-            <span>1</span>
-            <button class="btn_s">+</button>
+         <div>
+            
+            
+            
+            
+            <!-- COUNTER-->
+            <script type="text/javascript">
+
+              var clicks = 0;
+              function add() {
+                  clicks += 1;
+                  document.getElementById("clicks").innerHTML = clicks;
+              };
+
+              function sub() {
+
+                  if (clicks >= 1) {
+                  clicks -= 1;
+                  document.getElementById("clicks").innerHTML = clicks;
+                } else {
+                  clicks = 0;
+                }
+              };
+              </script>
+              <button type="button" class="btn_s" onclick="sub()">-</button>
+              <span><a id="clicks">0</a></span>
+              <button type="button" class="btn_s" onclick="add()">+</button>
+
+            <!-- COUNTER END-->
+
+
+
+
+
         </div>
         <div class="flex-container flex-herz">
             <button class="btn">Kauf mich</button>
@@ -97,7 +128,7 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Nährwerte
+                        Naehrwerte
                       </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -142,10 +173,6 @@
                           </tr>
                           </table>
                           </div>
-                          
-                          
-                          
-                      
                       </div>
                     </div>
                   </div>

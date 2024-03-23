@@ -582,6 +582,15 @@ h2 {
     margin: auto;
 }
 
+.accordion {
+    margin: 5% 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: purple;
+}
+
 
 
 @media only screen and (max-width: 576px) {
