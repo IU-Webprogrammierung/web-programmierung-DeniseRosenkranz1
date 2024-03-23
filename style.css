@@ -276,7 +276,6 @@ label {
     flex-direction: row;
     align-items: center;
     cursor: pointer;
-    margin: auto;
     transition: 900ms;
     margin-top: 1.5rem;
 }
@@ -286,7 +285,7 @@ label {
     background-color: #f324bc;
 }
 
-button {
+.button {
     font-family: 'Helvetica','Arial', sans-serif;
     font-size: 1.2em;
     color: #ffffff;
@@ -327,7 +326,7 @@ button {
     margin-top: 1.5rem;
 }
 
-button:hover {
+.button:hover {
     transition: 900ms;
     background-color: #f324bc;
 }
@@ -547,6 +546,40 @@ h2 {
 .btn-close {
     
     --bs-btn-close-bg: url("assets/close.svg");
+}
+
+.heart {
+    height: 100px;
+    position: relative;
+    width: 100px;
+    background: #ffffff;
+    display: flex;
+    border-radius: 0 0 0 10px;
+    transform: rotate(-45deg);
+}
+.heart::before {
+    position: absolute;
+    
+}
+
+.zoom {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    transform-origin: center center;
+}
+
+
+.produkte_slider {
+    width: 60%;
+    margin: auto;
 }
 
 

@@ -4,18 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
-    <title>Cosmic Mint Blast</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SpaceGum</title>
 </head>
+
+
 <body class="bg_beispiel">
-    
+
+   
+<!-- Sidenav -->
+<nav class="navbar  ">
+    <div class="container-fluid">
+      
+      
+      <div class="offcanvas offcanvas-end milchglas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          
+          <button type="button" class="btn-close sidenav-button" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/close.svg"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><p>Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="philosophie.html"><p>Philosophie</p></a>
+            </li>   
+            <li class="nav-item">
+                <a class="nav-link" href="produktseite.html"><p>Produkte</p></a>
+            </li>          
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Toggler -->
+
     <!--Header start-->
     <nav class="flex-container nav">
-        <img src="assets/Navigation.png" class="burger" alt="Navigation Icon" title="Navigation Icon">
+        <button class="navbar-toggler sidenav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            
+            <img src="assets/Navigation.png" class="burger" alt="Navigations Icon" title="Navigations Icon">
+          </button>
+        
+        
         <div class="nav_icon">
-            <img src="assets/Herz.png" alt="Herz Icon" title="Herz Icon">
+            <img src="assets/herz.png" alt="Herz Icon" title="Herz Icon" fill="#AB7C94">
             <img src="assets/Einkaufswagen.png" alt="Einkaufswagen Icon" title="Einkaufswagen Icon">
         </div>
     </nav>
@@ -40,7 +78,7 @@
             <button class="btn_s">+</button>
         </div>
         <div class="flex-container flex-herz">
-            <button>Kauf mich</button>
+            <button class="btn">Kauf mich</button>
             <img src="assets/Herz.png" class="herz" alt="Herz Icon" title="Herz Icon">
         </div>
     </section>
@@ -52,7 +90,97 @@
         <div class="info-modul">
             <div class="spacing ">
                 <p>Cosmic Mint Blast - Ein erfrischender Kaugenuss, der dich mit intensiver Minze und einer Prise kosmischer Frische verführt. Erlebe den einzigartigen Geschmack, der dich in neue Sphären der Erfrischung transportiert.</p>
-                <button class="toggle">+ Nährwerte</button>
+                
+                <!-- AKKORDEON START-->
+                
+                <div class="accordion" id="">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Nährwerte
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="info-inhalt" id="naehrwertInhalt">
+                          <table>
+                          <tr> 
+                              <td><strong>Nährwertangaben / 100g</strong></td>
+                              
+                          </tr>
+                          <tr>
+                              <td>Energie</td>
+                              <td>742 kj / 178 kcal</td>
+                          </tr>
+                          <tr>
+                              <td>Fett</td>
+                              <td>0g</td>
+                          </tr>
+                          <tr>
+                              <td>davon gesättigte Fettsäuren</td>
+                              <td>0g</td>
+                          </tr>
+                          <tr>
+                              <td>Kohlenhydrate</td>
+                              <td>74g</td>
+                          </tr>
+                          <tr>
+                              <td>davon Zucker</td>
+                              <td>0g</td>
+                          </tr>
+                          <tr>
+                              <td>Ballaststoffe</td>
+                              <td>0,6g</td>
+                          </tr>
+                          <tr>
+                              <td>Eiweiß</td>
+                              <td>0g</td>
+                          </tr>
+                          <tr>
+                              <td>Salz</td>
+                              <td>0g</td>
+                          </tr>
+                          </table>
+                          </div>
+                          
+                          
+                          
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Zutaten
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="info-inhalt inhalts_liste" id="zutatenInhalt">
+                          <ul>
+                              <li>Süßungsmittel (Xylit, Stevioglycosid)</li>
+                              <li>Natürliche Chicle-Kaumasse</li>
+                              <li>Natürliches Minzaroma</li>
+                              <li>Feuchthaltemittel (Glycerin)</li>
+                              <li>Verdickungsmittel (Gummi Arabicum)</li>
+                              <li>Carnaubawachs</li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <!-- AKKORDEON ENDE-->
+                
+                <!-- old akkoredeon
+                
+                
+                
+                
+                <button class="toggle btn">+ Nährwerte</button>
                 <div class="info-inhalt" id="naehrwertInhalt">
                     <table>
                     <tr> 
@@ -104,8 +232,8 @@
                             <li>Carnaubawachs</li>
                         </ul>
                     </div>
-                </div>
-            </div>  
+                </div> -->
+            </div>   
         </div>
         <img src="assets/trenner_wolke_2_m.svg" class="wolke_unten bild_m">
         <img src="assets/trenner_wolke_2_d.svg" class="wolke_unten bild_d mb2">
@@ -114,6 +242,9 @@
     <!--Content ende-->    
 
     <!--Vorschlag start--> 
+
+<!-- old
+
     <section class="spacing">
         <h3 class="center">Das koennte dir auch gefallen:</h3>
         <div id="karussell-container">
@@ -123,6 +254,32 @@
             </div>
             <img class="karussell-pfeil pfeil-rechts" src="assets/arrow_r.png" alt="Rechter Pfeil" title="Rechter Pfeil">
         </div>
+    </section>-->
+    <!--Vorschlag ende--> 
+    <!--Vorschlag TESTSTSTSTS--> 
+    <section class="spacing">
+        <h3 class="center">Das koennte dir auch gefallen:</h3>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img src="assets/Minze.png" class="d-block produkte_slider" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/Minze.png" class="d-block produkte_slider" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/Minze.png" class="d-block produkte_slider" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev sidenav-button" type="button " data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next sidenav-button" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     <!--Vorschlag ende--> 
 
