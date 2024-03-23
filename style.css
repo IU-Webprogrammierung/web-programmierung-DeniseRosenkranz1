@@ -562,19 +562,7 @@ h2 {
     
 }
 
-.zoom {
-    transition: all 0.5s ease;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-}
-
-.zoom:hover {
-    transform: scale(1.2);
-    transform-origin: center center;
-}
 
 
 .produkte_slider {
