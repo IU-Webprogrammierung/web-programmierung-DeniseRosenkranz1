@@ -159,7 +159,6 @@ h3 {
   border: 1px solid rgba(240, 194, 255, 0.365);
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  
 }
 
 .kachel_info {
@@ -175,7 +174,6 @@ h3 {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(4px);
   padding: 1.5rem;
-  
 }
 
 .kasten img {
