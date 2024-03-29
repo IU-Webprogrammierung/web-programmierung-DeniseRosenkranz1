@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
-   
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -14,44 +13,36 @@
 
 <body class="bg">
 
-   
 <!-- Sidenav -->
 <nav class="navbar  ">
     <div class="container-fluid">
-      
-      
-      <div class="offcanvas offcanvas-end milchglas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          
-          <button type="button" class="btn-close sidenav-button" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/close.svg"></button>
+        <div class="offcanvas offcanvas-end milchglas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close sidenav-button" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/close.svg"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><p>Home</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="philosophie.html"><p>Philosophie</p></a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="produktseite.html"><p>Produkte</p></a>
+                    </li>          
+                </ul>
+            </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"><p>Home</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="philosophie.html"><p>Philosophie</p></a>
-            </li>   
-            <li class="nav-item">
-                <a class="nav-link" href="produktseite.html"><p>Produkte</p></a>
-            </li>          
-          </ul>
-          
-        </div>
-      </div>
     </div>
-  </nav>
-  <!-- Toggler -->
+</nav>
+<!-- Toggler -->
 
     <!--Header start-->
     <nav class="flex-container nav">
         <button class="navbar-toggler sidenav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            
             <img src="assets/Navigation.png" class="burger" alt="Navigations Icon" title="Navigations Icon">
-          </button>
-        
-        
+        </button>       
         <div class="nav_icon">
             <img src="assets/herz.png" alt="Herz Icon" title="Herz Icon" fill="#AB7C94">
             <img src="assets/Einkaufswagen.png" alt="Einkaufswagen Icon" title="Einkaufswagen Icon">
@@ -62,15 +53,15 @@
     </a>
     <!--Header ende-->
 
-    <!--Content start-->
+    <!--Content Start-->
     <main>
         <div class="hauptbild">
             <img src="assets/Logo.png" alt="SpaceGum Logo" id="haupt_logo" title="SpaceGum Logo">
             <img src="assets/Astronaut.png" height="250px" class="astro_animation" id="haupt_astronaut" alt="Illustration Astronaut, der nach Kaugummi greift" title="Illustration Astronaut, der nach Kaugummi greift">
         </div>
 
-        <!--Kacheln Info start-->
-        <section class="spacing kachel">
+        <!--Kacheln Info Start-->
+        <section class="spacing flex-anzeige cg3">
             <article class="kasten milchglas">
                 <img src="assets/icon_100.png" alt="Blatt Icon" title="Blatt Icon">
                 <h3>Plastikfreies Kaugummi</h3>
@@ -92,10 +83,12 @@
                 <p>Natürlich verwenden wir zu 100 % nur die besten natürlichen Aromen.</p>
             </article>
         </section>
-        <!--Kacheln Info ende-->
+        <!--Kacheln Info Ende-->
 
-        <!--Shops start-->
-        <div class="rakete_logo">
+        
+
+        <!--Shops Start-->
+        <section class="rakete_logo">
             <img src="assets/trenner_wolke_1_m.svg" class="wolke_oben bild_m">
             <img src="assets/trenner_wolke_1_d.svg" class="wolke_oben bild_d">
             <div class="supermarkt">
@@ -106,11 +99,11 @@
             </div>
             <img src="assets/trenner_wolke_2_m.svg" class="wolke_unten bild_m mb4">
             <img src="assets/trenner_wolke_2_d.svg" class="wolke_unten bild_d mb4">
-        </div>
-        <!--Shops ende-->
+        </section>
+        <!--Shops Ende-->
 
-        <!--Mail Formular start-->
-        <section class="kasten spacing fixed">
+        <!--Mail Formular Start-->
+        <section class="kasten milchglas spacing fixed">
             <h3>Jetzt nichts mehr verpassen!</h3>
             <p>Melde dich für unseren Newsletter an und erhalte exklusive Einblicke, Angebote und Updates zu unserem abgespaceten Kaugummi. Sei Teil der Space-Gummunity – für einen frischen Start in den Weltraum des Geschmacks!</p>
             <form method="post"> 
@@ -150,28 +143,28 @@
                 </fieldset>    
             </form>
         </section>
-        <!--Mail Formular ende-->
+        <!--Mail Formular Ende-->
 
     </main>
     <!--Content ende-->
 
-    <!--Footer start    Socials und Footer Links als Liste und mit p Tag (ist keine überschrift also warum h4?) + Links verlinken -->
+    <!--Footer Start-->
     <footer class="spacing">
         <hr>
-      <div class="flex-container socials">
-           <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram Icon" title="Instagram Icon" class="social"></a>
+        <div class="flex-container socials">
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram Icon" title="Instagram Icon" class="social"></a>
             <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok Icon" title="TikTok Icon" class="social"></a>
             <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube Icon" title="YouTube Icon" class="social"></a>
-      </div>
-      <div class="footer_links">
-        <ul>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">Impressum</a></li>
-            <li><a href="#">Datenschutz</a></li>
-        </ul>
-      </div>
+        </div>
+        <div class="footer_links">
+            <ul>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Datenschutz</a></li>
+            </ul>
+        </div>
     </footer>
-    <!--Footer ende-->
+    <!--Footer Ende-->
 
 </body>
 </html>

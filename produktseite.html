@@ -1,131 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
-   
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon.png"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>SpaceGum</title>
-</head>
+  </head>
 
-
-<body class="bg_beispiel">
-
-   
-<!-- Sidenav -->
-<nav class="navbar  ">
-    <div class="container-fluid">
-      
-      
-      <div class="offcanvas offcanvas-end milchglas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          
-          <button type="button" class="btn-close sidenav-button" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/close.svg"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"><p>Home</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="philosophie.html"><p>Philosophie</p></a>
-            </li>   
-            <li class="nav-item">
+  <body class="bg_beispiel">
+    <!-- Sidenav -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div
+          class="offcanvas offcanvas-end milchglas"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close sidenav-button"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <img src="assets/close.svg" />
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  ><p>Home</p></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="philosophie.html"
+                  ><p>Philosophie</p></a
+                >
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="produktseite.html"><p>Produkte</p></a>
-            </li>          
-          </ul>
-          
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <!-- Toggler -->
+    </nav>
+    <!-- Toggler -->
 
     <!--Header start-->
     <nav class="flex-container nav">
-        <button class="navbar-toggler sidenav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            
-            <img src="assets/Navigation.png" class="burger" alt="Navigations Icon" title="Navigations Icon">
-          </button>
-        
-        
-        <div class="nav_icon">
-            <div class="heart"></div>
-            <img src="assets/herz.png" alt="Herz Icon" title="Herz Icon" fill="#AB7C94">
-            <img src="assets/Einkaufswagen.png" alt="Einkaufswagen Icon" title="Einkaufswagen Icon">
-        </div>
+      <button
+        class="navbar-toggler sidenav-button"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <img
+          src="assets/Navigation.png"
+          class="burger"
+          alt="Navigations Icon"
+          title="Navigations Icon"
+        />
+      </button>
+
+      <div class="nav_icon">
+        <div class="heart"></div>
+        <img
+          src="assets/herz.png"
+          alt="Herz Icon"
+          title="Herz Icon"
+          fill="#AB7C94"
+        />
+        <img
+          src="assets/Einkaufswagen.png"
+          alt="Einkaufswagen Icon"
+          title="Einkaufswagen Icon"
+        />
+      </div>
     </nav>
     <a href="#">
-        <img src="assets/backtotop.png" id="backtotop" alt="Zurück nach oben Icon" title="Zurück nach oben Icon">
+      <img
+        src="assets/backtotop.png"
+        id="backtotop"
+        alt="Zurück nach oben Icon"
+        title="Zurück nach oben Icon"
+      />
     </a>
     <!--Header ende-->
-    <img src="assets/header_produktseite_m.png" class="bild_m header_produktseite" alt="Überschrift unsere Produkte" title="Überschrift unsere Produkte">
-    <img src="assets/header_produktseite_d.png" class="bild_d header_produktseite" alt="Überschrift unsere Produkte" title="Überschrift unsere Produkte">
+    <img
+      src="assets/header_produktseite_m.png"
+      class="bild_m header_produktseite"
+      alt="Überschrift unsere Produkte"
+      title="Überschrift unsere Produkte"
+    />
+    <img
+      src="assets/header_produktseite_d.png"
+      class="bild_d header_produktseite"
+      alt="Überschrift unsere Produkte"
+      title="Überschrift unsere Produkte"
+    />
     <!--Content start-->
     <div id="content" class="spacing produkt-uebersicht">
-        
-    
-        <!--Produkte start Herz neben zum Produkt?-->
-        <div class="Minze produkt-box">
-            <img src="assets/Herz.png" class="produkt-herz" alt="Herz Icon" title="Herz Icon">
-            <a href="produktbeispiel.html">
-                <img src="assets/Minze.png" class="w100" alt="Produktbild Cosmic Mint Blast" title="Produktbild Cosmic Mint Blast">
-            </a>    
-            <h3>Cosmic Mint Blast</h3>
-            <p>Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des Weltraums einfängt.</p>
-            <a href="produktbeispiel.html">
-                <button class="btn">Zum Produkt</button>
-            </a>    
-        </div>    
+      <!--Produkte start Herz neben zum Produkt?-->
+      <div class="Minze produkt-box">
+        <img
+          src="assets/Herz.png"
+          class="produkt-herz"
+          alt="Herz Icon"
+          title="Herz Icon"
+        />
+        <a href="produktbeispiel.html">
+          <img
+            src="assets/Minze.png"
+            class="w100"
+            alt="Produktbild Cosmic Mint Blast"
+            title="Produktbild Cosmic Mint Blast"
+          />
+        </a>
+        <h3>Cosmic Mint Blast</h3>
+        <p>
+          Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des
+          Weltraums einfängt.
+        </p>
+        <a href="produktbeispiel.html">
+          <button class="btn">Zum Produkt</button>
+        </a>
+      </div>
 
-        <div class="Zimt produkt-box">
-            <img src="assets/Herz.png" class="produkt-herz" alt="Herz Icon" title="Herz Icon">
-            <img src="assets/Zitrone.png" class="w100"  alt="Produktbild Galactic Fruit Fusion" title="Produktbild Galactic Fruit Fusion">
-            <h3>Galactic Fruit Fusion</h3>
-            <p>Ein fruchtiges Kaugummi, das verschiedene Galaxien von Aromen zu einer köstlichen Fusion vereint.</p>
-            <button class="btn">Zum Produkt</button>
-        </div>    
+      <div class="Zimt produkt-box">
+        <img
+          src="assets/Herz.png"
+          class="produkt-herz"
+          alt="Herz Icon"
+          title="Herz Icon"
+        />
+        <img
+          src="assets/Zitrone.png"
+          class="w100"
+          alt="Produktbild Galactic Fruit Fusion"
+          title="Produktbild Galactic Fruit Fusion"
+        />
+        <h3>Galactic Fruit Fusion</h3>
+        <p>
+          Ein fruchtiges Kaugummi, das verschiedene Galaxien von Aromen zu einer
+          köstlichen Fusion vereint.
+        </p>
+        <button class="btn">Zum Produkt</button>
+      </div>
 
-        <div class="Zitrone produkt-box">
-            <img src="assets/Herz.png" class="produkt-herz" alt="Herz Icon" title="Herz Icon">
-            <img src="assets/Zimt.png" class="w100" alt="Produktbild Stellar Cinnamon Burst" title="Produktbild Stellar Cinnamon Burst">
-            <h3>Stellar Cinnamon Burst</h3>
-            <p>Ein Kaugummi mit zimtigem Geschmack, das wie eine Explosion im Sternenhimmel ist.</p>
-            <button class="btn">Zum Produkt</button>
-        </div> 
+      <div class="Zitrone produkt-box">
+        <img
+          src="assets/Herz.png"
+          class="produkt-herz"
+          alt="Herz Icon"
+          title="Herz Icon"
+        />
+        <img
+          src="assets/Zimt.png"
+          class="w100"
+          alt="Produktbild Stellar Cinnamon Burst"
+          title="Produktbild Stellar Cinnamon Burst"
+        />
+        <h3>Stellar Cinnamon Burst</h3>
+        <p>
+          Ein Kaugummi mit zimtigem Geschmack, das wie eine Explosion im
+          Sternenhimmel ist.
+        </p>
+        <button class="btn">Zum Produkt</button>
+      </div>
 
-        <div class="Bubblegum produkt-box">
-            <img src="assets/Herz.png" class="produkt-herz" alt="Herz Icon" title="Herz Icon">
-            <img src="assets/Bubblegum.png" class="w100" alt="Produktbild Nebula Bubble Bliss" title="Produktbild Nebula Bubble Bliss">
-            <h3>Nebula Bubble Bliss</h3>
-            <p>Ein süßer Bubblegum-Kaugummi, der die süßen Geheimnisse einer Nebula in jeder Blase versteckt.</p>
-            <button class="btn">Zum Produkt</button>
-        </div>
-        <!--Produkte ende-->
-    
+      <div class="Bubblegum produkt-box">
+        <img
+          src="assets/Herz.png"
+          class="produkt-herz"
+          alt="Herz Icon"
+          title="Herz Icon"
+        />
+        <img
+          src="assets/Bubblegum.png"
+          class="w100"
+          alt="Produktbild Nebula Bubble Bliss"
+          title="Produktbild Nebula Bubble Bliss"
+        />
+        <h3>Nebula Bubble Bliss</h3>
+        <p>
+          Ein süßer Bubblegum-Kaugummi, der die süßen Geheimnisse einer Nebula
+          in jeder Blase versteckt.
+        </p>
+        <button class="btn">Zum Produkt</button>
+      </div>
+      <!--Produkte ende-->
     </div>
     <!--Content start-->
 
     <!--Footer start    oter Links als Liste und mit p Tag (ist keine überschrift also warum h4?) + Links verlinken -->
     <footer class="spacing">
-        <hr>
-    <div class="flex-container socials">
-        <a href="https://www.instagram.com" target="_blank"><img src="assets/insta.png" alt="Instagram Icon" title="Instagram Icon" class="social"></a>
-            <a href="https://www.tiktok.com" target="_blank"><img src="assets/tiktok.png" alt="TikTok Icon" title="TikTok Icon" class="social"></a>
-            <a href="https://www.youtube.com" target="_blank"><img src="assets/youtube.png" alt="YouTube Icon" title="YouTube Icon" class="social"></a>
-    </div>
-    <div class="footer_links">
+      <hr />
+      <div class="flex-container socials">
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            src="assets/insta.png"
+            alt="Instagram Icon"
+            title="Instagram Icon"
+            class="social"
+        /></a>
+        <a href="https://www.tiktok.com" target="_blank"
+          ><img
+            src="assets/tiktok.png"
+            alt="TikTok Icon"
+            title="TikTok Icon"
+            class="social"
+        /></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><img
+            src="assets/youtube.png"
+            alt="YouTube Icon"
+            title="YouTube Icon"
+            class="social"
+        /></a>
+      </div>
+      <div class="footer_links">
         <ul>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">Impressum</a></li>
-            <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
         </ul>
-    </div>
+      </div>
     </footer>
     <!--Footer ende-->
-    
-</body>
+  </body>
 </html>

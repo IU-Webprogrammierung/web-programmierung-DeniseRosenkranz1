@@ -1,11 +1,14 @@
-var produkte = 0;
-
+var clicks = 0;
 function add() {
   clicks += 1;
-  document.getElementById("produkte").innerHTML = clicks;
-};
+  document.getElementById("clicks").innerHTML = clicks;
+}
 
-function subtract() {
+function sub() {
+  if (clicks >= 1) {
     clicks -= 1;
-    document.getElementById("produkte").innerHTML = clicks;
-  };
+    document.getElementById("clicks").innerHTML = clicks;
+  } else {
+    clicks = 0;
+  }
+}
