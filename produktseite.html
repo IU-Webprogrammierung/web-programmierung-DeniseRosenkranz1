@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/counter.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>SpaceGum</title>
   </head>
@@ -77,7 +78,6 @@
       </button>
 
       <div class="nav_icon">
-        <div class="heart"></div>
         <img
           src="assets/herz.png"
           alt="Herz Icon"
@@ -100,6 +100,7 @@
       />
     </a>
     <!--Header ende-->
+    <!--Header ende-->
     <img
       src="assets/header_produktseite_m.png"
       class="bild_m header_produktseite"
@@ -115,37 +116,40 @@
     <!--Content start-->
     <section id="content" class="spacing produkt-uebersicht">
       <!--Produkte start Herz neben zum Produkt?-->
-      <div class="Minze produkt-box">
+      <div class="Minze produkt-box milchglas">
         <img
           src="assets/Herz.png"
           class="produkt-herz"
           alt="Herz Icon"
           title="Herz Icon"
+          onclick="this.src='assets/Herz_r.png'"
         />
-        <a href="produktbeispiel.html">
+        
           <img
             src="assets/Minze.png"
             class="w100"
             alt="Produktbild Cosmic Mint Blast"
             title="Produktbild Cosmic Mint Blast"
+            
           />
-        </a>
+        
         <h3>Cosmic Mint Blast</h3>
         <p>
           Ein Kaugummi mit einem intensiven Minzgeschmack, der den Geschmack des
           Weltraums einfängt.
         </p>
-        <a href="produktbeispiel.html">
+        <a href="sorten/minze.html">
           <button class="btn">Zum Produkt</button>
         </a>
       </div>
 
-      <div class="Zimt produkt-box">
+      <div class="Zitrone produkt-box milchglas">
         <img
           src="assets/Herz.png"
           class="produkt-herz"
           alt="Herz Icon"
           title="Herz Icon"
+          onclick="this.src='assets/Herz_r.png'"
         />
         <img
           src="assets/Zitrone.png"
@@ -158,15 +162,18 @@
           Ein fruchtiges Kaugummi, das verschiedene Galaxien von Aromen zu einer
           köstlichen Fusion vereint.
         </p>
-        <button class="btn">Zum Produkt</button>
+        <a href="sorten/zitrone.html">
+          <button class="btn">Zum Produkt</button>
+        </a>
       </div>
 
-      <div class="Zitrone produkt-box">
+      <div class="Zimt produkt-box milchglas">
         <img
           src="assets/Herz.png"
           class="produkt-herz"
           alt="Herz Icon"
           title="Herz Icon"
+          onclick="this.src='assets/Herz_r.png'"
         />
         <img
           src="assets/Zimt.png"
@@ -174,20 +181,23 @@
           alt="Produktbild Stellar Cinnamon Burst"
           title="Produktbild Stellar Cinnamon Burst"
         />
-        <h3>Stellar Cinnamon Burst</h3>
+        <h3>Stellar Cinnamon</h3>
         <p>
           Ein Kaugummi mit zimtigem Geschmack, das wie eine Explosion im
           Sternenhimmel ist.
         </p>
-        <button class="btn">Zum Produkt</button>
+        <a href="sorten/zimt.html">
+          <button class="btn">Zum Produkt</button>
+        </a>
       </div>
 
-      <div class="Bubblegum produkt-box">
+      <div class="Bubblegum produkt-box milchglas">
         <img
           src="assets/Herz.png"
           class="produkt-herz"
           alt="Herz Icon"
           title="Herz Icon"
+          onclick="this.src='assets/Herz_r.png'"
         />
         <img
           src="assets/Bubblegum.png"
@@ -200,7 +210,9 @@
           Ein süßer Bubblegum-Kaugummi, der die süßen Geheimnisse einer Nebula
           in jeder Blase versteckt.
         </p>
-        <button class="btn">Zum Produkt</button>
+        <a href="sorten/bubblegum.html">
+          <button class="btn">Zum Produkt</button>
+        </a>
       </div>
       <!--Produkte ende-->
     </section>

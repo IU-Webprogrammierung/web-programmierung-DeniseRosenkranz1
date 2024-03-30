@@ -380,7 +380,9 @@ select {
 .produkt-box {
   width: 80%;
   max-width: 400px;
-  padding: 1rem 0;
+  margin: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(240, 194, 255, 0.365);
 }
 
 .w100 {
@@ -493,6 +495,12 @@ select {
   background-color: purple;
 }
 
+.produktvideo {
+  margin-top: 3%;
+  border-radius: 10px;
+
+}
+
 @media only screen and (max-width: 576px) {
   .bg {
     background-image: url("assets/bg_mob.png");
@@ -507,6 +515,15 @@ select {
 
   .bild_d {
     display: none;
+  }
+
+  .spacing {
+    margin: 0 auto 5%;
+    width: 90%;
+  }
+
+  .cg0 section {
+    width: 100%;
   }
 
   @keyframes hochrunter {
@@ -606,3 +623,4 @@ select {
     min-height: 18rem;
   }
 }
+
