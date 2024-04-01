@@ -62,6 +62,10 @@ h3 {
   line-height: 1.4em;
 }
 
+.clear {
+  text-decoration: none;
+}
+
 .nav {
   margin: 2em;
 }
@@ -425,7 +429,7 @@ select {
 }
 
 .mb2 {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .mt2 {
@@ -502,6 +506,43 @@ select {
   margin-top: 3%;
   border-radius: 10px;
 
+}
+
+.datenschutz h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 1.8em;
+}
+
+.datenschutz h3 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 1.8em;
+}
+
+.datenschutz a {
+  text-decoration: none;
+  color: #8213a4;
+}
+
+.impressum strong{
+  color: #ffffff;
+}
+
+.bildverzeichnis {
+  list-style-type: disc;
+  color: #ffffff;
+}
+
+.bildverzeichnis li {
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+.bildverzeichnis li::marker {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 576px) {
