@@ -491,8 +491,8 @@ select {
 }
 
 .accordion-button:not(.collapsed) {
-  color: black;
-  background-color: purple;
+  color: #ffffff;
+  background-color: #8213a4;
 }
 
 .produktvideo {
