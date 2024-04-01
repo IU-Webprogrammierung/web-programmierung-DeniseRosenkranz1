@@ -269,6 +269,7 @@ label {
   cursor: pointer;
   transition: 900ms;
   margin-top: 1.5rem;
+  text-decoration: none;
 }
 
 .btn_s {
@@ -279,6 +280,8 @@ label {
 
 .btn:hover {
   background-color: #f324bc;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .sidenav-button {
